@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: white;
+    margin: 10px 5px 0 5px;
+}
+
+.btn{
+    float: right;
+    display: block;
+}
+
+.dark-to-light{
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+
+    padding: 5px 10px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 150px 100px;
+    column-gap: 10px;
+}
+
+.name,.date{
+    background-color: gray;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding:10px 0 10px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+.name::placeholder{
+    color: black;
+}
+
+.add{
+    background-color: gray;
+    color: black;
+    border: none;
+    border-radius:10px ;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+/*In Width less or equal to 700px the input elements will align vertically(display block*/
+@media (max-width:700px) {
+    form{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .name,.date{
+        border: none;
+        border-radius: 5px;
+        display: inherit;
+        width: 100%;
+        font-size: 0.7rem;
+        font-weight: 700;
+        font-weight: 800;
+        padding:10px 0 10px 5px;
+        margin-bottom: 15px;
+
+    }
+    
+    .add{
+        display: inherit;
+        width: 30%;
+        margin: auto;
+        
+    }
+    
+}

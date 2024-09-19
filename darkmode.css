@@ -1,0 +1,38 @@
+/*START Dark Mode Styling*/
+.body-dark{
+    background-color: rgb(9, 8, 14);
+}
+
+.dark-to-light-dark{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.name-dark,.date-dark{
+    background-color: whitesmoke;
+    color: black;
+
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding:10px 0 10px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.add-dark{
+    background-color: whitesmoke;
+    color: black;
+
+    border: none;
+    border-radius:10px ;
+    padding: 10px 20px;
+}
+
+
+
+/*END OF Dark Mode Styling*/
