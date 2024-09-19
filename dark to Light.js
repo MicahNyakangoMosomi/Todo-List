@@ -10,7 +10,7 @@ let darkToLight = () =>{
         document.querySelector('.dark-to-light').classList.add('dark-to-light-dark');
         document.querySelector('.name').classList.add('name-dark');
         document.querySelector('.date').classList.add('date-dark');
-        document.querySelector('.add').classList.add('add-dark');
+        document.querySelector('.display').classList.add('display-dark');
 
 
     }
@@ -22,7 +22,7 @@ let darkToLight = () =>{
         document.querySelector('.dark-to-light').classList.remove('dark-to-light-dark');
         document.querySelector('.name').classList.remove('name-dark');
         document.querySelector('.date').classList.remove('date-dark');
-        document.querySelector('.add').classList.remove('add-dark');
+        document.querySelector('.display').classList.remove('display-dark');
 
     }
 
