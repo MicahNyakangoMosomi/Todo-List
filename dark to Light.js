@@ -30,3 +30,5 @@ let darkToLight =() =>{
 }
 
 btnElement.addEventListener('click', darkToLight);
+
+//end of the dark mode and light mode code

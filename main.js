@@ -1,4 +1,4 @@
-
+//main js
 const nameElement = document.querySelector('.name');
 const dateElement  = document.querySelector('.date');
 
