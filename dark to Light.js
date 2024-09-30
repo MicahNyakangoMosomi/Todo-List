@@ -1,8 +1,9 @@
+//dark to light theme 
 let btnElement = document.querySelector('.dark-to-light');
 
 console.log(document.querySelector('.dark-to-light').innerHTML);
 
-let darkToLight = () =>{
+let darkToLight =() =>{
 
     if(btnElement.innerText === 'Dark Mode'){
         document.getElementById('dark-to-light').innerText = 'Light Mode';
